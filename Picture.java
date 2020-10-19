@@ -58,12 +58,21 @@ public class Picture
        
         
         grass = new Square();
-        grass.makeVisible();
         grass.changeColor("green");
-        grass.changeSize(520);
-        grass.moveVertical(130);
-        grass.moveHorizontal(-328);
-        sun.slowMoveVertical(-200);
+        grass.moveHorizontal(-310);
+        grass.moveVertical(120);
+        grass.changeSize(500);
+        grass.makeVisible();
+        sun.slowMoveVertical(-180);
+        
+      
+    }
+    /**
+       * Draw this picture.
+         */
+    public void atardecer()
+    {
+        sun.slowMoveVertical(180);
         
         
         
